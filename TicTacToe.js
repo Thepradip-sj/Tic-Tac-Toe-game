@@ -27,6 +27,8 @@ const winPatterns = [
 const resetGame = () => {
   turnO = true;
   count = 0;
+  count1=0;
+  count2=0;
   sel.textContent=`Player 1: O`;
   sel2.textContent=`Player 2: X`;
   turn.textContent="Player 1 Turn";
